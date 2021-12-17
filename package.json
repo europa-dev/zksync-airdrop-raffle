@@ -1,0 +1,18 @@
+{
+  "name": "zksync-airdrop-raffle",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "raffle": "HARDHAT_NETWORK=mainnet node ./scripts/snapshotRaffle.js"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-web3": "^2.0.0",
+    "hardhat": "^2.6.4",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers@^0.3.0-beta.11",
+    "dotenv": "^10.0.0",
+    "ethers": "^5.4.7"
+  }
+}

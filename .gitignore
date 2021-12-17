@@ -1,0 +1,25 @@
+.env
+node_modules
+parts.html
+
+#Hardhat files
+cache
+artifacts
+typechain/**
+.openzeppelin
+
+# Script output
+logs
+
+# Coverage result files
+coverage/
+coverage.json
+
+deployments/
+build/
+assets/
+metadata/
+
+scripts/utils/localhost-contracts.json
+
+.DS_Store
