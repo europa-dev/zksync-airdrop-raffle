@@ -7,7 +7,7 @@ yarn
 ```
 
 ## set env variables
-Copy the template and set the values (private key / infura api key)
+Copy the template and set the values (private key / [infura](https://infura.io/) api key)
 ```
 cp .env.template .env
 ```
